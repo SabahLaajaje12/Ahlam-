@@ -40,9 +40,9 @@ Ahlamé is a women-only beauty booking marketplace—not a single salon website,
 
 \- Homepage with marketplace feel
 
-\- Provider listing page (grid of available providers)
+\- Provider listing page
 
-\- Provider detail page (services, reviews, booking CTA)
+\- Provider detail page
 
 \- Booking page skeleton
 
@@ -54,11 +54,11 @@ Ahlamé is a women-only beauty booking marketplace—not a single salon website,
 
 
 
-\- Demo providers hardcoded in HTML
+\- Demo providers hardcoded
 
 \- Static reviews
 
-\- Non-functional booking buttons
+\- Non-functional buttons
 
 \- No database persistence
 
@@ -68,5 +68,5 @@ Ahlamé is a women-only beauty booking marketplace—not a single salon website,
 
 
 
-A visual prototype helps align the product direction, but jumping from prototype to working MVP exposes every hidden assumption.
+A visual prototype helps align product direction, but the jump to working MVP exposes every hidden assumption.
 
