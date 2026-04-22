@@ -2,9 +2,13 @@
 
 
 
-\*\*Last Updated:\*\* April 10, 2026  
+\*\*Last Updated:\*\* April 22, 2026  
 
-\*\*Project Status:\*\* 🟡 Working local MVP
+\*\*Project Status:\*\* 🟡 Working local MVP — pre-deployment
+
+
+
+\---
 
 
 
@@ -16,53 +20,137 @@
 
 |---------|--------|
 
-| Public homepage | ✅ |
+| Public homepage (redesigned) | ✅ |
 
-| Provider list | ✅ |
+| Provider discovery page | ✅ |
 
 | Provider detail page | ✅ |
 
-| Booking flow | ✅ |
+| Booking flow (end-to-end) | ✅ |
 
-| Booking persistence | ✅ |
+| Booking persistence (SQLite) | ✅ |
 
-| Confirmation pages | ✅ |
+| Tokenized confirmation pages | ✅ |
 
-| Provider submission | ✅ |
+| Provider submission flow | ✅ |
 
-| Admin CRUD | ✅ |
+| Admin CRUD for providers | ✅ |
 
-| Authentication | ✅ |
+| Service CRUD | ✅ |
 
-| RBAC (3 roles) | ✅ |
+| Provider dashboard | ✅ |
+
+| Booking status management | ✅ |
+
+| Authentication (signup/login/logout) | ✅ |
+
+| Password hashing | ✅ |
+
+| Session management | ✅ |
+
+| RBAC (Customer, Provider, Admin) | ✅ |
+
+| Protected routes \& dashboards | ✅ |
 
 | CSRF protection | ✅ |
 
-| Rate limiting | ✅ |
+| Rate limiting (auth endpoints) | ✅ |
 
 | Audit logging | ✅ |
 
+| Versioned migrations | ✅ |
 
+| Environment config support | ✅ |
 
-\## 🚧 Planned
+| Demo/Live provider separation | ✅ |
 
+| Global design system | ✅ |
 
-
-| Feature | Priority |
-
-|---------|----------|
-
-| Payment integration | High |
-
-| Password reset | Medium |
-
-| Email verification | Medium |
-
-| Production deployment | High |
+| Homepage redesign (clean, premium feel) | ✅ |
 
 
 
-\## Tech Stack
+\---
+
+
+
+\## 🚧 In Progress / Next Up
+
+
+
+| Feature | Priority | Notes |
+
+|---------|----------|-------|
+
+| Stripe payment integration | 🔴 High | Test mode first |
+
+| Deployment to production | 🔴 High | Render/Railway |
+
+| `/providers` page polish | 🟡 Medium | Most visited after homepage |
+
+| `/book` flow polish | 🟡 Medium | Core user journey |
+
+
+
+\---
+
+
+
+\## ⏳ Known Gaps (Post-MVP)
+
+
+
+| Gap | Priority | Notes |
+
+|-----|----------|-------|
+
+| Password reset | Low | Email setup required |
+
+| Email verification | Low | Same as above |
+
+| Notifications | Low | Can fake with flash messages |
+
+| PostgreSQL migration | Low | SQLite fine for demo |
+
+
+
+\---
+
+
+
+\## 📸 Recent Progress (April 2026)
+
+
+
+\### Homepage Redesign
+
+\- Removed cluttered headlines
+
+\- Simplified to: "Discover beauty services by women, for women"
+
+\- Added category icons (Hair, Nails, Facial, Bridal, At Home)
+
+\- Cleaner header navigation
+
+\- Removed all demo/fake messaging from public pages
+
+
+
+\### Marketplace Honesty
+
+\- No fake providers shown publicly
+
+\- No fake reviews or metrics
+
+\- Demo data strictly hidden from public views
+
+
+
+\---
+
+
+
+\## 🛠 Tech Stack Summary
 
 
 
@@ -70,11 +158,39 @@
 
 |-------|------------|
 
-| Backend | FastAPI |
+| Backend Framework | FastAPI |
 
 | Templates | Jinja2 |
 
-| Database | SQLite |
+| Frontend | HTML, CSS, vanilla JavaScript |
 
-| Auth | Session-based |
+| Database | SQLite (dev) |
+
+| Auth | Session-based, HttpOnly cookies |
+
+
+
+\---
+
+
+
+\## 🎯 Portfolio Readiness
+
+
+
+| Criteria | Status |
+
+|----------|--------|
+
+| Working end-to-end flow | ✅ |
+
+| Clean, documented code | ✅ |
+
+| DevLog with 6 phases | ✅ |
+
+| Security features demonstrated | ✅ |
+
+| Live deployment | 🔜 Next |
+
+| Real payments | 🔜 Next |
 
